@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "npm run start:prod",
+    "healthcheck": {
+      "path": "/api/health"
+    }
+  }
+}
