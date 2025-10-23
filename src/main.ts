@@ -7,7 +7,10 @@ async function bootstrap() {
   
   // Configure CORS
   const corsOptions: CorsOptions = {
-    origin: ['http://localhost:4200', 'https://ta-front-n8ano4uj7-mhasansiddiquis-projects.vercel.app'],
+    origin: ['http://localhost:4200', 
+            'https://ta-front-b53c19g8g-mhasansiddiquis-projects.vercel.app',
+            'https://ta-currency-converter.vercel.app',
+            'https://ta-front-end.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   };
